@@ -1,0 +1,200 @@
+
+body{
+    font-family: "Open Sans";
+}
+li {
+  padding-left: 30px;
+  font-size: 16px;
+  text-transform: uppercase;
+
+}
+nav .navbar-nav li a:hover{
+    color: darkblue!important;
+    }
+    .navbar-toggler {
+        padding: 0.25rem 0.75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+    }
+
+.navbar-brand {
+    position: relative;
+    top: -5px;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: darkblue!important;
+    font-weight: bold;
+    
+}
+
+.navbar-collapse {
+    position: relative;
+
+}
+.navbar-nav {
+    margin-left: auto;
+}
+
+
+.about{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+} 
+.about h1 ,.PFeature h1 ,.buy h1{
+    font-weight: bold;
+    color: darkblue;
+}
+.firstsec p,.PFeature p ,.buy p{
+    font-size: 18px;
+    line-height: 1.8;
+    color: #888;
+    margin-bottom: 50px;
+}
+.imageClass {
+    background-image: url("../image/sec1.jpg");
+    width: 100%;
+    height: 480px;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+.imageClass p{
+    position: absolute;
+    bottom: 0px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #DDD;
+    font-size: 18px;
+    margin: 0;
+    width: 100%;
+}
+.row{
+    position: relative;
+}
+
+
+.col-sm-6{
+    margin-bottom: 10px;
+}
+#hh{
+    width: 100%;
+    height: 100%;
+
+}
+.move p{
+    padding-left: 20px;
+}
+section.service{
+    width: 100%;
+    background-image: url("../image/intro.jpg");
+    height: 400px;
+    background-attachment: fixed;
+    position: relative;
+    text-align: center;
+
+
+}
+section.service p{
+    position: absolute;
+    top: 180px;
+    font-size: 30px;
+    padding: 20px;
+    border: 3px solid white ;
+    display: inline-block;
+    margin-left: -200px;
+    color: darkblue;
+    font-weight: bold;
+    border-radius: 5px;
+    
+}
+
+
+ .imageFeature {
+    margin-top: 70px;
+
+}
+.PFeature{
+   margin-top: 200px;
+   padding-bottom: 30px;
+}
+.buy{
+    background-image: url("../image/download-section-bg.jpg");
+    width: 100%;
+    height: 700px;
+    position: relative;
+    background-size: 100% 100%;
+    z-index: -1;
+}
+.BuyItem{
+    position: absolute;
+   left: 100px;
+   top: 250px;
+}
+
+.buy h1{
+    font-weight: bold;
+    color: white;
+}
+ .BuyItem p{
+    font-size: 18px;
+    line-height: 1.8;
+    color: white;
+}
+footer{
+    width: 100%;
+    padding: 50px;
+    height: 300px;
+    background: #2e3149;
+}
+.footerHead h1{
+    color: white;
+    font-weight: bold;
+}
+.footerLink{
+    padding-bottom: 40px;
+    border-bottom:2px solid gray ;
+}
+.footerLink a
+{
+    font-size: 18px;
+    color: gray;
+    text-decoration: none;
+
+}
+.footerLink a:hover
+{
+    color: black;
+
+}
+footer p{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+footer i{
+    background-color:#DDD;
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 13px;
+    color: aliceblue;
+}
+footer i:hover:nth-of-type(1){
+background-color: blue;
+cursor: pointer;
+}
+
+footer i:hover:nth-of-type(2){
+    background-color: #38A1F3;
+    cursor: pointer;
+}
+    footer i:hover:nth-of-type(3){
+        background: #d6249f;
+        cursor: pointer;
+        }
